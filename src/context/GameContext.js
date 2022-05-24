@@ -86,12 +86,12 @@ export default function GameLogic({ children }) {
 
     setPlaysMade(playsMade + 1);
     setBoard(temp.map((row) => [...row]));
-    playAIMove(temp.map((row) => [...row]), playsMade + 1, !!possibleWinner);
+    playAIMove(temp.map((row) => [...row]), playsMade + 1, possibleWinner);
   }
 
-  const playAIMove = async (temp, movesMade, isGameOver) => {
-    if (isGameOver) {
-      return;
+  const playAIMove = async (temp, movesMade, didUserWin) => {
+    if (didUserWin) {
+      return setWinner("X");
     }
 
     try {
