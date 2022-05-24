@@ -74,7 +74,7 @@ export default function SignUp() {
             <h1 className="mb-4">TIC TAC TOE</h1>
 
             <Form.Group className="mb-3" controlId="formEmail">
-              <Form.Control placeholder="Email" />
+              <Form.Control type="email" placeholder="Email" />
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formPassword">
