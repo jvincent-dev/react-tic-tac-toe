@@ -30,7 +30,7 @@ In the project directory, you can run:
 - I wanted to extract the sign up logic into it's own context, but I didn't have time
 - The API endpoints could have had their own context too if I had time. It would have prevented having two of the same API_ENDPOINT varaiables
 - Could have used icons instead of the text Xs and Os and could have implemented a better board if I had the time
-- I had planned to use the AI engine endpoint to generate a suggested move by reversing the table's values and sending the current move. But it doesn't handle Xs. If I were to implement this, I would set some rules for the computer to follow like picking the middle if it's open and focusing on rows, columns or even diagonals that already have two Xs
+- I had planned to use the AI engine endpoint to generate a suggested move by reversing the table's values and sending the current move. But it doesn't handle Xs. If I were to implement this, I would set some rules for the computer to follow like picking the middle if it's open and focusing on rows, columns or even diagonals that already have two Xs. Another option also could be just picking random free cells since it's just a "suggestion".
 - I would also play more with bootstrap and hopefully do better styles if I had the time
 - I think using the button made it harder to implement the css for the row and column hightlights. Without the button setting the highlight would be easier with CSS
 - A better brand/logo would be nice to replace the "tic tac toe" text
